@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modern love letter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="author" href="https://github.com/lanphgphm" content="Reimplementation of Christopher Strachey's love letter algorithm with modern vocabulary.">
+</head>
+<body onload="getVocab()">
+    <h1>Modern Love Letter</h1>
+    <p id="synopsis"> A reimplementation of Christopher Strachey's Love Letter Generator algorithm with modern vocabulary.</p>
+    <div id="letter-container">
+        <p id="letter"> </p>
+    </div>
+
+    <button id="generate" onclick="generate()">Generate</button>
+    
+    <table>
+        <tr id="header">
+            <td>Salutations 1   </td>
+            <td>Salutations 2   </td>
+            <td>Adjectives      </td>
+            <td>Nouns         </td>
+            <td>Verbs         </td>
+            <td>Adverbs   </td>
+        </tr>
+        <tr id="vocab">
+            <td><p id="sals1"></p></td>
+            <td><p id="sals2"></p></td>
+            <td><p id="adjs"></p></td>
+            <td><p id="nouns"></p></td>
+            <td><p id="verbs"></p></td>
+            <td><p id="advs"></p></td>
+        </tr>
+    </table>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
